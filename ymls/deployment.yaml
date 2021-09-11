@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: ashaik65/myweb:2
+        image: bushu123/myweb:12
         ports:
         - containerPort: 80
 

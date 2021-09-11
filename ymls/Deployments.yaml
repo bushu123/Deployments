@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: kaniko 
-        image: bushu123/web:1.6.0
+        image: nginx
         ports: 
         - containerPort: 80 
 --- 

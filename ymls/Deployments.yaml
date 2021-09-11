@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: kaniko 
-        image: ashaik65/myweb:2
+        image: bushu123/web:1
         ports: 
         - containerPort: 80 
 --- 

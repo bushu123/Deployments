@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: kaniko 
-        image: bushu123/kaniko:latest
+        image: bushu123/kaniko:2
         ports: 
         - containerPort: 80 
 --- 

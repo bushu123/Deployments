@@ -1,20 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-nginx
+  name: my-nginx-demo
 spec:
   selector:
     matchLabels:
-      run: my-nginx
-  replicas: 2
+      run: my-nginx-demo
+  replicas: 3
   template:
     metadata:
       labels:
-        run: my-nginx
+        run: my-nginx-demo
     spec:
       containers:
-      - name: my-nginx
+      - name: my-nginx-demo
         image: bushu123/kaniko1111:4
-        ports:
-        - containerPort: 80
 
